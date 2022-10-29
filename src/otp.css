@@ -1,0 +1,22 @@
+.otp-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.err-message{
+    color:red;
+}
+.success-message{
+    color:green;
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+.rows{
+    display: flex;
+    justify-content: center;
+}
+.no-margin{
+    margin: 0;
+}

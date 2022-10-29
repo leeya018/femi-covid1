@@ -1,0 +1,54 @@
+body {
+  font-family: Times New Roman, Times, serif;
+}
+button {
+  background: cadetblue;
+  color: white;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+.button_enable {
+  background: cadetblue;
+  color: white;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+.button_disable {
+  background: rgb(141, 146, 146);
+  color: white;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+input {
+  border-top: 1px solid #575757;
+  border-right: 1px solid #6b7a89;
+  border-bottom: 1px solid #70869b;
+  border-left: 1px solid #525a62;
+  font-size: 1em;
+  line-height: 1em;
+  background: url(https://img.10fastfingers.com/img/layout/sprite-main.png) 0px -60px
+    no-repeat;
+  color: #333;
+}
+/* #fileInput{
+    font-size: .5em;
+} */
+button:hover {
+  opacity: 0.5;
+}
+.center {
+  display: flex;
+  flex-direction: center;
+}
+.left {
+  display: flex;
+  flex-direction: left;
+}
